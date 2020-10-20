@@ -1,0 +1,13 @@
+<div class="mt-4">
+	<h4>{{burger_name}}</h4>
+
+	<!--Devour me button-->
+	{{#if devoured}}
+	<button class="devour-it" data-id="{{id}}" data-devoured="{{devoured}}">Devour It!</button>
+	{{/if}}
+
+
+	<button class="delete-burger" data-id="{{this.id}}">All Done!</button>
+
+</div>
+
