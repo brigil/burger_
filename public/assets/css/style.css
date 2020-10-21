@@ -1,9 +1,41 @@
 html {
- 
+    /* background-color: black; */
 }
 .devoured {
-    color: blueviolet;
+    color: rgb(160, 72, 72);
+    text-align: center;
+    margin-top: -20px
 }
-.goodPic {
-    align-content: stretch;
+.jumbotron{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+  
+  
+  
+}
+.menu{
+  display: block;
+  margin-top: 30px;
+  
+  float: right;
+  
+}
+.create-form {
+    color: black;
+    text-align: center;
+    
+}
+h2{
+    color: red;
+    
+}
+
+.introfoot{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
